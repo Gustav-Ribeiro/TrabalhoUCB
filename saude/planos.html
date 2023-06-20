@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="index">
+   <header>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">quimioplex</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Opções
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="planos.html">planos</a></li>
+                  <li><a class="dropdown-item" href="equipamentos.html">Equipamentos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Login.html">Login</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-dark btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="card">
+            <div class="card-header">
+              Plano 1
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>quimioterapia Intensiva</p>
+                <footer class="blockquote-footer">Risco: Elevado <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Plano 2
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>quimioterapia Prolongada</p>
+                <footer class="blockquote-footer">Risco: baixo<cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Plano 3
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>quimioterapia por Gotejamento</p>
+                <footer class="blockquote-footer">Risco baixo<cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
